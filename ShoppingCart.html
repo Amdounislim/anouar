@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Store</title>
+    <meta name="description" content="This is the description" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1 class="band-name band-name-large">The Store</h1>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">ITEMS</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Shoes</span>
+          <img
+            class="shop-item-image"
+            src="https://images.ctfassets.net/od02wyo8cgm5/4VXZrAobQXbBcEExdKqIHI/2a4bb16c771038d5edaad8ba33682d75/cloudswift-fw19-rock_slate-m-g1.png"
+          />
+          <div class="shop-item-details">
+            <i class="fas fa-heart"></i>
+            <span class="shop-item-price">$100</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">T-Shirt</span>
+          <img
+            class="shop-item-image"
+            src="https://contents.mediadecathlon.com/p1589825/k$4896d7b6d502aa2748b06b3c832b9645/sq/T+shirt+homme+Sportee+100+coton+bleu+fonc.jpg"
+          />
+          <div class="shop-item-details">
+            <i class="fas fa-heart"></i>
+            <span class="shop-item-price">$30</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Hat</span>
+          <img
+            class="shop-item-image"
+            src="https://www.hatsbythe100.com.au/media/catalog/product/cache/6/image/1920x/9df78eab33525d08d6e5fb8d27136e95/a/k/akubra_traveller_-_black_-_hats_by_the_hundred.1541561738.jpg"
+          />
+          <div class="shop-item-details">
+            <i class="fas fa-heart"></i>
+            <span class="shop-item-price">$45</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Glasses</span>
+          <img
+            class="shop-item-image"
+            src="https://www.opticabassol.com/pub/media/catalog/product/cache/72bc800ddd4483b3b117bed0a656c011/2/6/26319_00.jpg"
+          />
+          <div class="shop-item-details">
+            <i class="fas fa-heart"></i>
+            <span class="shop-item-price">$200</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section"></section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+    <script type="text/javascript" src="store.js" ></script>
+
+  </body>
+</html>
